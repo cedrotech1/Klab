@@ -2,7 +2,7 @@
 import Form from './Form';
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Back from '../images2/opoo.png';
+import Back from '../images2/back1.webp';
 // import Back from '../images2/bg22.PNG'
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
 
 
   const onAdd = async (message, email) => {
-    await fetch("https://ehealthbackend-project.herokuapp.com/api/health/suggest", 
+    await fetch("https://ehealthbackend-project.herokuapp.com/api/health/suggest",
     {
       method: "POST",
       body: JSON.stringify({
@@ -30,27 +30,27 @@ const Contact = () => {
           return res.json();
         }
       })
-      .then((data) => { 
+      .then((data) => {
         alert('well done');
         setUsers((users) => [...users, data]);
-       
+
         alert(data);
       })
       .catch((err) => {
         console.log(err);
       });
   };
-    return ( 
+    return (
           <>
 <section class="page-title text-center contactMes" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'}}>
     <div class="container">
         <div class="title-text">
-            <h1>Contact</h1>
+           <i> <h1 style={{color:'blue',fontFamily:'MathItalic' }}>Contact us</h1></i>
             <ul class="title-menu clearfix">
                 <li>
-                   <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}><a href="">home &nbsp;/</a></Link>
+                   <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}>home &nbsp;/</Link>
                 </li>
-                <li>Contact</li>
+                <li style={{color:'blue' }}>Contact</li>
             </ul>
         </div>
     </div>
@@ -82,7 +82,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-        
+
           {/* <!-- Email --> */}
           <div class="media">
             <i class="far fa-envelope i1"></i>
@@ -106,7 +106,7 @@ const Contact = () => {
 </section>
 
 {/* <div class="mapouter col-md-12"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=k_lab&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br/></div></div> */}
-    <center> 
+    <center>
       <section class="map">
         {/* <!-- Google Map --> */}
         <iframe width="1180" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=k_lab&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -115,14 +115,14 @@ const Contact = () => {
         <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
           style="border:0" allowfullscreen></iframe>
       </div> */}
-        {/* <div class="mapouter" style={{position:'relative',textAlign:'right',height:'408px',width:'618px'}}><div class="gmap_canvas" style={{overflow:'hidden',background:'none!important',height:'408px',width:'618px'}}><iframe width="618" height="408" id="gmap_canvas" src="https://maps.google.com/maps?q=klab%20kigali&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br/><style>.mapouter{}</style><a href="https://www.embedgooglemap.net">google map embed</a><style>.gmap_canvas 
+        {/* <div class="mapouter" style={{position:'relative',textAlign:'right',height:'408px',width:'618px'}}><div class="gmap_canvas" style={{overflow:'hidden',background:'none!important',height:'408px',width:'618px'}}><iframe width="618" height="408" id="gmap_canvas" src="https://maps.google.com/maps?q=klab%20kigali&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br/><style>.mapouter{}</style><a href="https://www.embedgooglemap.net">google map embed</a><style>.gmap_canvas
           {}</style></div></div> */}
-        
+
       </section>
-</center>  
+</center>
           </>
-        
+
      );
 }
- 
+
 export default Contact;

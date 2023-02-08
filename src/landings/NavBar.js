@@ -14,11 +14,11 @@ const NavBar = () => {
       x.style.display = 'none';
     }
   }
-    return ( 
+    return (
 <>
-       
-  
 
+
+{/*
 <div class="header-top" style={{backgroundColor:'#f5f5f5'}}>
   <div class="container">
     <div class="row align-items-center">
@@ -60,22 +60,22 @@ const NavBar = () => {
       </div>
     </div>
   </div>
-</div>
+</div> */}
  {/* <!--header top--> */}
 
 
 
 {/* <!--Header Upper--> */}
 
-<section class="header-uper" style={{position:"",backgroundColor:'honeydew'}}>
+<section class="header-uper" style={{position:"",backgroundColor:''}}>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-xl-4 col-lg-3">
         <div class="logo">
-         
-          <Link to="/hospital_login"> 
+
+          <Link to="/hospital_login">
             <img loading="lazy" class="img-fluid" src="asset/images/logo1x.png" alt="logo" style={{width:'5m',height:'3cm'}}/>
-            </Link>  
+            </Link>
         </div>
       </div>
       <div class="col-xl-8 col-lg-9">
@@ -109,10 +109,11 @@ const NavBar = () => {
   </div>
 </section>
 <section>
-<nav class="mynav">
+
+<nav class="mynav" style={{backgroundColor:'white'}}>
       <input type="checkbox" id="check"/>
       <label for="check" class="checkbtn" onClick={Display}>
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" style={{color:'blue'}}></i>
       </label>
       <label class="logo">E-HELTHY</label>
       <ul class='ul' id='ul'>
@@ -125,13 +126,13 @@ const NavBar = () => {
     </nav>
     </section>
     {/* <section></section> */}
-<section class="sec">
+<section class="sec" style={{backgroundColor:'white'}}>
 <nav class="navbar" style={{backgroundColor:'',width:'100%',marginTop:'0.2cm'}}>
   {/* <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
     <div class="collapse navbar-collapse" id="navbarLinks">
      <b>
         <ul class="navbar-nav">
@@ -151,7 +152,7 @@ const NavBar = () => {
             <a class="nav-link" ><Link to="/contact" class='nav-link' style={{color:'blue'}}>Contact US</Link></a>
           </li>
         </ul>
-    </b> 
+    </b>
     </div>
   </div> */}
 </nav>
@@ -159,5 +160,5 @@ const NavBar = () => {
 </>
      );
 }
- 
+
 export default NavBar;

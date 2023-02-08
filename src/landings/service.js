@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Back from '../images2/bg22.PNG'
+import Back from '../images2/back1.webp'
 // import Back from '../images2/opoo.png'
 
 const Service = () => {
-    return ( 
+    return (
           <>
           <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
     <div class="container">
         <div class="title-text">
-            <h1>service</h1>
+        <i> <h1 style={{color:'blue',fontFamily:'MathItalic' }}>SERVICE</h1></i>
             <ul class="title-menu clearfix">
                 <li>
-                <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}><a href="">home &nbsp;/</a></Link>
+                   <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}>home &nbsp;/</Link>
                 </li>
-                <li>service</li>
+                <li style={{color:'blue' }}>service</li>
             </ul>
         </div>
     </div>
@@ -27,7 +27,7 @@ const Service = () => {
     <div class="row" style={{marginTop:'-1.5cm'}}>
       <div class="col-lg-12">
         <div class="section-title text-center" style={{Color:'black'}}>
-          <h4>DIFFERNT 
+          <h4>DIFFERNT
             <span> WEB SERVICES</span>
           </h4>
         </div>
@@ -46,7 +46,7 @@ const Service = () => {
 									</figure>
 								</div>
 								<h3 class="mb-2">specific threatment</h3>
-								<p> patient will view his report about his treatments from different hospital at different time! 
+								<p> patient will view his report about his treatments from different hospital at different time!
                   dates report, doctor name who make operation and other related report
 
                 </p>
@@ -61,7 +61,7 @@ const Service = () => {
           {/* <!--Slide Item--> */}
           <div class="slide-item">
             <div class="inner-box text-center">
-             
+
             <div class="item">
 								<div class="icon-box">
 									<figure>
@@ -71,7 +71,7 @@ const Service = () => {
 									</figure>
 								</div>
 								<h3 class="mb-2">General Treatment</h3>
-								<p>in this feature general tratment patient will have access to view his information like blood type 
+								<p>in this feature general tratment patient will have access to view his information like blood type
                   current weigth, height , fever , blood speed...
                 </p>
 							</div>
@@ -94,7 +94,7 @@ const Service = () => {
 									</figure>
 								</div>
 								<h3 class="mb-2">testes</h3>
-								<p>patient have accesss to view testes hospital made for him/her and  dates ! this information can help doctors next time 
+								<p>patient have accesss to view testes hospital made for him/her and  dates ! this information can help doctors next time
                   patient need treatments </p>
 							</div>
             </div>
@@ -117,7 +117,7 @@ const Service = () => {
 								</div>
 								<h3 class="mb-2">MEDICAL CARE</h3>
 								<p> patient have access to view his/her medecine for his text result if it is positive
-                  and view information about that medecines like expired date and manufactured date 
+                  and view information about that medecines like expired date and manufactured date
                   and catalog of that medecine
                 </p>
 							</div>
@@ -138,8 +138,8 @@ const Service = () => {
 
 
           </>
-        
+
      );
 }
- 
+
 export default Service;

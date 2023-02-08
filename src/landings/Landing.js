@@ -2,18 +2,18 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Back from '../images2/back1.webp';
 const Landing = () => {
-    return ( 
+    return (
           <>
           <div class="hero-slider">
   {/* <!-- Slider Item --> */}
-  <div class="slider-item slide1" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm',backgroundColor:'white' }}>
+  <div class="slider-item slide1" style={{ backgroundImage:`url(${Back})`,opacity:'0.9',marginTop:'-1.8cm',backgroundColor:'white' }}>
     <div class="container">
       <div class="row">
         <div class="col-12">
           {/* <!-- Slide Content Start --> */}
           <div class="content style text-center">
-            <h2 class="text-white text-bold mb-2" data-animation-in="slideInLeft">WELCOME TO E-HEALTH WEB</h2>
-            <p class="tag-text mb-4" data-animation-in="slideInRight">We care our patients by providing necessary information either hospital info or repart about recently Medical report<br/>Your welcome to e-health digitalized information</p>
+            <h2 class="text-blue text-bold mb-2" data-animation-in="slideInLeft"  style={{color:'blue' }}>WELCOME TO E-HEALTH WEB</h2>
+            <p class="tag-text mb-4" data-animation-in="slideInRight" style={{color:'blue' }}>We care our patients by providing necessary information either hospital info or repart about recently Medical report<br/>Your welcome to e-health digitalized information</p>
             <Link to="/about" class='' style={{textDecoration:'none'}}> <a href="about" class="btn btn-main btn-white" data-animation-in="slideInLeft" data-duration-in="1.2">explore</a></Link>
           </div>
           {/* <!-- Slide Content End --> */}
@@ -21,21 +21,21 @@ const Landing = () => {
       </div>
     </div>
   </div>
- 
- 
+
+
 </div>
 
 {/* <!--====  End of Page Slider  ====--> */}
 <section class="cta" style={{padding:'0.5cm'}}>
   <div class="container">
     <div class="cta-block row no-gutters">
-      <div class="col-lg-4 col-md-6 emmergency item">
+      <div class="col-lg-4 col-md-6 emmergency item" style={{backgroundColor:"#F0FFFF"}}>
         <i class="fa fa-phone"></i>
-        <h2>Emegency Cases</h2>
-        <a href="tel:0782 779 773">0782 779 773</a>
-        <p>for specific case you can call that number for specific help <br/> <br/></p>
+        <h2 style={{Color:"blue"}}>Emegency Cases</h2>
+        <a href="tel:0782 779 773" style={{Color:"blue"}}>0782 779 773</a>
+        <p style={{Color:"blue"}}>for specific case you can call that number for specific help <br/> <br/></p>
       </div>
-      <div class="col-lg-4 col-md-6 top-doctor item">
+      <div class="col-lg-4 col-md-6 top-doctor item" style={{backgroundColor:"skyblue"}}>
         <i class="fa fa-stethoscope"></i>
         <h2>24 Hour Service</h2>
         <p>our services is always available as 24/24 hours</p>
@@ -80,7 +80,7 @@ const Landing = () => {
 									</figure>
 								</div>
 								<h3 class="mb-2">specific threatment</h3>
-								<p> patient will view his report about his treatments from different hospital at different time! 
+								<p> patient will view his report about his treatments from different hospital at different time!
                   dates report, doctor name ....
 
                 </p>
@@ -96,7 +96,7 @@ const Landing = () => {
 									</figure>
 								</div>
 								<h3 class="mb-2">testes</h3>
-								<p>patient have accesss to view testes hospital made for him/her and  dates ! this information can help doctors next time 
+								<p>patient have accesss to view testes hospital made for him/her and  dates ! this information can help doctors next time
                   patient need treatments </p>
 							</div>
 						</div>
@@ -111,7 +111,7 @@ const Landing = () => {
 								</div>
 								<h3 class="mb-2">MEDICAL CARE</h3>
 								<p> patient have access to view his/her medecine for his text result if it is positive
-                  and view information about that medecines like expired date and manufactured date 
+                  and view information about that medecines like expired date and manufactured date
                   and catalog of that medecine
                 </p>
 							</div>
@@ -126,7 +126,7 @@ const Landing = () => {
 									</figure>
 								</div>
 								<h3 class="mb-2">General Treatment</h3>
-								<p>in this feature general tratment patient will have access to view his information like blood type 
+								<p>in this feature general tratment patient will have access to view his information like blood type
                   current weigth, height , fever , blood speed...
                 </p>
 							</div>
@@ -157,7 +157,7 @@ const Landing = () => {
       <div class="col-lg-12">
         <div class="section-title text-center" style={{Color:'black'}}><br/><br/>
           <h3>Main &nbsp;
-            
+
             <span>web users</span>
           </h3>
         </div>
@@ -181,8 +181,8 @@ const Landing = () => {
                       </figure>
                    </Link>
                 <b style={{color:'black'}}>patients</b></h6>
-              <p class="mb-0"> Our patient is the main web users because of our main purpuser is to digitalize 
-              their information to be accessible by both patient and different hospital users in easy way lather 
+              <p class="mb-0"> Our patient is the main web users because of our main purpuser is to digitalize
+              their information to be accessible by both patient and different hospital users in easy way lather
               using manual way </p>
             </div>
           </div>
@@ -195,7 +195,7 @@ const Landing = () => {
           <div class="slide-item">
             <div class="inner-box text-center">
               {/* <div class="image-box" style={{backgroundColor:'honeydew',border:'3px solid white'}}>
-              
+
               </div> */}
               <h6>
                    <Link to="/service" class='nav-link'>
@@ -204,7 +204,7 @@ const Landing = () => {
                       </figure>
                    </Link>
                   <b style={{color:'black'}}>DIFFERENT HOSPITAL USERS</b></h6>
-              <p class="mb-0"> Hospital has many users which will be use this system, 
+              <p class="mb-0"> Hospital has many users which will be use this system,
               users like resepitionist,doctors,.. will have access to add,modify different patient information
               depending each user access</p>
             </div>
@@ -218,8 +218,8 @@ const Landing = () => {
 <br/><br/>
 
           </>
-        
+
      );
 }
- 
+
 export default Landing;

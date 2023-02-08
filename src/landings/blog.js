@@ -1,7 +1,7 @@
 import { React, useEffect,useState} from 'react';
 import { Link } from "react-router-dom";
 // import Back from '../images2/opoo.png';
-import Back from '../images2/bg22.PNG'
+import Back from '../images2/back1.webp'
 import User from "./user";
 
 
@@ -14,7 +14,7 @@ const App = () => {
   const fetchData = async () => {
     await  fetch("https://ehealthbackend-project.herokuapp.com/api/health/blogs")
       .then((res) => res.json())
-      .then((data) => setUsers(data.blogs)) 
+      .then((data) => setUsers(data.blogs))
   };
 
 
@@ -25,12 +25,12 @@ const App = () => {
     <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
     <div class="container">
         <div class="title-text">
-            <h1>Blog</h1>
+        <i> <h1 style={{color:'blue',fontFamily:'MathItalic' }}>BLOGS</h1></i>
             <ul class="title-menu clearfix">
                 <li>
-                <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}><a href="">home &nbsp;/</a></Link>
+                   <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}>home &nbsp;/</Link>
                 </li>
-                <li>Blog</li>
+                <li style={{color:'blue' }}>blog</li>
             </ul>
         </div>
     </div>
@@ -50,17 +50,17 @@ const App = () => {
             file={user.blog_file}
 
             // onDelete={onDelete}
-            // onUpdate={onUpdate} 
+            // onUpdate={onUpdate}
           />
-          
+
         ))}
         <br/><br/>
-      
+
       <div class="col-lg-1"></div>
     </div>
   </div>
 </section>
-    
+
     </>
   );
 };

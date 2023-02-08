@@ -17,9 +17,9 @@ const Footer = () => {
        }
     })
       .then((res) => res.json())
-      .then((data) => setUsers(data.blogs)) 
+      .then((data) => setUsers(data.blogs))
   };
-    return ( 
+    return (
         <>
 <footer class="footer-main" style={{backgroundColor:'#484848',marginTop:'-3cm'}}>
   <div class="footer-top">
@@ -28,10 +28,11 @@ const Footer = () => {
         <div class="col-lg-4 mb-5 mb-lg-0">
           <div class="about-widget">
             <div class="footer-logo">
+            <h2>CONTACT US</h2>
               <figure>
-              <Link to="/hospital_login"> 
+              <Link to="/hospital_login">
             <img loading="lazy" class="img-fluid" src="asset/images/logo1x.png" alt="logo" style={{width:'6cm',height:'3.5cm'}}/>
-            </Link> 
+            </Link>
               </figure>
             </div>
             <p>e-helthy head quater center address especially located at kigali city
@@ -57,7 +58,7 @@ const Footer = () => {
               <li class="list-inline-item"><a href="https://www.facebook.com/klabrw/" aria-label="facebook" style={{backgroundColor:'skyblue'}}><i class="fab fa-facebook-f" style={{height:'1cm'}}></i></a></li>
               <li class="list-inline-item"><a href="https://twitter.com/klabrw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" aria-label="twitter" style={{backgroundColor:'skyblue'}}><i class="fab fa-twitter"></i></a></li>
               <li class="list-inline-item"><a href="https://www.instagram.com/accounts/login/?next=/klabrwanda/" aria-label="instagram" style={{backgroundColor:'skyblue'}}><i class="fab fa-instagram"></i></a></li>
-             
+
             </ul>
           </div>
         </div>
@@ -65,7 +66,7 @@ const Footer = () => {
           <h2>Quick links</h2>
           <ul class="menu-link">
             <li>
-              <Link to="/" class='nav-link'> 
+              <Link to="/" class='nav-link'>
                   <i class="fa fa-angle-right" aria-hidden="true" ></i>Home
               </Link>
             </li>
@@ -105,12 +106,12 @@ const Footer = () => {
             file={user.blog_file}
 
             // onDelete={onDelete}
-            // onUpdate={onUpdate} 
+            // onUpdate={onUpdate}
           />
-          
+
         ))}
               <br/>
-             
+
             </ul>
           </div>
         </div>
@@ -120,19 +121,19 @@ const Footer = () => {
   <div class="footer-bottom" style={{backgroundColor:'black'}}>
     <div class="container clearfix">
       <div class="copyright-text">
-     <center>  <p>&copy; Copyright 2022. Designed &amp; Developed by 
-      <a href="https://twitter.com/klabrw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <span></span>K_lab developers</a></p></center> 
+     <center>  <p>&copy; Copyright 2022. Designed &amp; Developed by
+      <a href="https://twitter.com/klabrw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <span></span>K_lab developers</a></p></center>
       </div>
-      
+
     </div>
   </div>
 </footer>
         </>
-        
+
     //     <div className="col-md-12 footerx">
-    //         <center><i><p class="label">&copy;cedrickhakuzimana@gmail.com  <a href=" "> for more info</a> </p></i> 
+    //         <center><i><p class="label">&copy;cedrickhakuzimana@gmail.com  <a href=" "> for more info</a> </p></i>
     // </center></div>
      );
 }
- 
+
 export default Footer;

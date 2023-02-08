@@ -32,7 +32,7 @@ body{
   /* padding: 40px 0px; */
   /* box-shadow: 1px 1px 8px rgb(112, 112, 112); */
 
-/* 
+/*
 .sideNavbar{
   /* padding: 40px 0px; */
   /* box-shadow: 1px 1px 8px rgb(112, 112, 112);
@@ -369,7 +369,7 @@ li {
 }
 .header-top1 .top-right .social-links li {
   display: inline-block;
-  
+
 }
 .header-top1 .top-right .social-links li i {
   width: 40px;
@@ -378,7 +378,7 @@ li {
   margin: -1px;
   font-size: 16px;
   color: #9fe9ee;
-  
+
   text-align: center;
   border: 1px solid #9fe9ee;
   transition: 0.3s;
@@ -504,7 +504,7 @@ li {
   margin-left: 20px;
   margin-top: 5px;
 }
-/* 
+/*
 .navbar {
   margin-bottom: 0;
   background: #c1f6fa;
@@ -525,7 +525,7 @@ li {
   padding: 13px 18px !important;
   transition: 0.3s;
   text-decoration: none;
-  
+
 }
 @media (max-width: 991px) {
   .navbar .navbar-nav li > .nav-link {
@@ -533,7 +533,7 @@ li {
     text-align: center;
     color:black;
     font-family:;
-    
+
   }
 }
 
@@ -548,11 +548,11 @@ li {
   background: transparent;
   font-weight: 600;
   text-decoration: underline;
-  
+
 }
 .navbar .navbar-nav li.active > a:hover {
   background: transparent;
-  
+
 }
 
 .dropdown-toggle::after {
@@ -578,7 +578,7 @@ li {
     z-index: 1;
     opacity: 0;
     visibility: hidden;
-    
+
   }
   .navbar .dropdown-menu .dropdown-item {
     padding-top: 5px;
@@ -743,7 +743,7 @@ button:focus {
 }
 .hero-slider .slider-item:before {
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   content: "";
   top: 0;
   height: 100%;
@@ -844,7 +844,7 @@ button:focus {
   background: #48bdc5;
 }
 .cta .cta-block .emmergency a {
-  color: #fff;
+  /* color: #fff; */
   font-size: 30px;
 }
 .cta .cta-block .emmergency p {
@@ -855,7 +855,7 @@ button:focus {
 }
 .cta .cta-block .top-doctor .btn-main {
   margin-top: 10px;
-  color: #fff;
+  /* color: #fff; */
   border: 1px solid #fff;
   padding: 10px 20px;
   transition: all 0.3s ease;
@@ -872,7 +872,7 @@ button:focus {
   padding: 0;
 }
 .cta .cta-block .working-time ul li {
-  color: #fff;
+  /* color: #fff; */
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 5px 0;
@@ -881,14 +881,14 @@ button:focus {
   float: right;
 }
 .cta .cta-block .working-time ul li:not(:last-child) {
-  border-bottom: 1px solid #fff;
+  /* border-bottom: 1px solid #fff; */
 }
 .cta .cta-block .item {
   padding: 45px 30px;
 }
 .cta .cta-block .item i, .cta .cta-block .item h2, .cta .cta-block .item p {
   transition: all 0.2s ease;
-  color: #fff;
+  /* color: #fff; */
 }
 .cta .cta-block .item i {
   font-size: 30px;
@@ -2724,7 +2724,7 @@ button:focus {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: rgba(19, 38, 70, 0.6);
+  /* background: rgba(19, 38, 70, 0.6); */
 }
 .page-title .title-text h1 {
   position: relative;

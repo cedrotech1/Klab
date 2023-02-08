@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Back from '../images2/bg22.PNG'
+import Back from '../images2/back1.webp'
 // import Back from '../images2/opoo.png'
 // import NavBar from "./NavBar";
 
@@ -26,18 +26,18 @@ x.style.display = 'none';
 
 }
   // myFunction();
-    return ( 
+    return (
           <>
-        
+
 <section class="page-title text-center"  style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm' }}>
     <div class="container">
         <div class="title-text">
-            <h1>about us</h1>
+        <i> <h1 style={{color:'blue',fontFamily:'MathItalic' }}>ABOUT</h1></i>
             <ul class="title-menu clearfix">
                 <li>
-                <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}><a href="">home &nbsp;/</a></Link>
+                   <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}>home &nbsp;/</Link>
                 </li>
-                <li>about us</li>
+                <li style={{color:'blue' }}>About</li>
             </ul>
         </div>
     </div>
@@ -76,8 +76,8 @@ x.style.display = 'none';
                 <div class="col-lg-6">
                   <img loading="lazy" class="img-fluid" src="asset/images/services/service-one.jpg"  alt="service-image"/>
                 </div>
-              
-              
+
+
                 <div class="col-lg-6">
                   <div class="contents">
                     <div class="section-title">
@@ -89,7 +89,7 @@ x.style.display = 'none';
                         <h5 class="tagline">"to digitolise patient information is purpuse of our web application "</h5>
                         <br/>
 
-                          <p>Its web application which will help patients  to access hospitals information 
+                          <p>Its web application which will help patients  to access hospitals information
                             and his/her treatment information across the country but only where he/she uses
                              their services(treatment).
                              <br/> <br/>
@@ -99,7 +99,7 @@ x.style.display = 'none';
 
                       </div>
                     </div>
-                  
+
                   </div>
                 </div>
               </div>
@@ -118,20 +118,20 @@ x.style.display = 'none';
                     </div>
                     <div class="text">
                     <h6></h6>
-                          <p>     
+                          <p>
 
                           It is envisioned that, “By 2022, eHealth will enable widespread access to health care services,
-                          health information, and securely share and exchange client's information in support to a safer, 
-                          quality health care, more equitable and responsive health system for all the Rwandan people by 
+                          health information, and securely share and exchange client's information in support to a safer,
+                          quality health care, more equitable and responsive health system for all the Rwandan people by
                           transforming the way information<br/>
 
                           <p></p>
 
                           </p>
-                      
-                      
+
+
                       </div>
-                    
+
                     <a href="services.html" class="btn btn-style-one">Read more</a>
                   </div>
                 </div>
@@ -153,14 +153,14 @@ x.style.display = 'none';
                       <p> </p>
                       <p>Through our leading technology, far-reaching partnerships, consumer advocacy and industry expertise,
                          we work tirelessly to be the online standard for finding, comparing and buying individual, family,
-                          small business and Medicare health insurance. Our customer care specialists and licensed agents are 
+                          small business and Medicare health insurance. Our customer care specialists and licensed agents are
                           available to provide personalized assistance 24 hours a day, 7 days a week over the internet, telephone,
                            email, fax or online chat. When private insurance is not an option, we can connect people
-                         to public assistance programs to help them find the care they need. Anyone in need of access 
+                         to public assistance programs to help them find the care they need. Anyone in need of access
                          to health coverage has an ally in eHealth.</p>
                          <br/>
                     </div>
-                    
+
                     <a href="services.html" class="btn btn-style-one" style={{backgroungColor:'whitesmoke'}}>Read more</a>
                   </div>
                 </div>
@@ -168,10 +168,10 @@ x.style.display = 'none';
             </div>
             {/* <!--End single tab content--> */}
             {/* <!--Start single tab content--> */}
-          
+
             {/* <!--End single tab content--> */}
             {/* <!--Start single tab content--> */}
-         
+
             {/* <!--End single tab content--> */}
           </div>
 
@@ -184,8 +184,8 @@ x.style.display = 'none';
                 <div class="col-lg-6">
                   <img loading="lazy" class="img-fluid" src="asset/images/services/service-one.jpg" alt="service-image" style={{borderRadius:'0.5cm'}}/>
                 </div>
-              
-              
+
+
                 <div class="col-lg-6" id='cl cl2 cl3'>
                   <div class="contents">
                     <div class="section-title">
@@ -197,7 +197,7 @@ x.style.display = 'none';
                         <h5 class="tagline">"to digitolise patient information is purpuse of our web application "</h5>
                         <br/>
 
-                          <p>Its web application which will help patients  to access hospitals information 
+                          <p>Its web application which will help patients  to access hospitals information
                             and his/her treatment information across the country but only where he/she uses
                              their services(treatment).
                              <br/> <br/>
@@ -207,7 +207,7 @@ x.style.display = 'none';
 
                       </div>
                     </div>
-                  
+
                   </div>
                 </div>
               </div>
@@ -281,7 +281,7 @@ x.style.display = 'none';
         </div>
         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionGroup">
           <div class="card-body" style={{fontSize:'19px'}}>
-          our services is always available as 24/24 hours. at any moment patient will be able to access his information even if system can crush but patient can save 
+          our services is always available as 24/24 hours. at any moment patient will be able to access his information even if system can crush but patient can save
           as pdf file
           </div>
         </div>
@@ -297,8 +297,8 @@ x.style.display = 'none';
         </div>
         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionGroup">
           <div class="card-body" style={{fontSize:'19px'}}>
-            every one is allowed to visit this web application but only one to access information is 
-            one atleat who treated by hospital which uses this system and hospital receptionist register that patient and give him clidentios 
+            every one is allowed to visit this web application but only one to access information is
+            one atleat who treated by hospital which uses this system and hospital receptionist register that patient and give him clidentios
             that enable to login in this panel
           </div>
         </div>
@@ -344,7 +344,7 @@ x.style.display = 'none';
             <option>Doctor</option>
             <option>Diagnostic</option>
             <option>Psychological</option>
-          </select> 
+          </select>
         </div> */}
       </div>
       <div class="col-md-12">
@@ -366,11 +366,11 @@ x.style.display = 'none';
 
 
 {/* <div class="mapouter col-md-12"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=k_lab&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br/></div></div> */}
-       
+
 
           </>
-        
+
      );
 }
- 
+
 export default Contact;
