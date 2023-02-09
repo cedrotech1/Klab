@@ -28,20 +28,20 @@ const Landing = () => {
 {/* <!--====  End of Page Slider  ====--> */}
 <section class="cta" style={{padding:'0.5cm'}}>
   <div class="container">
-    <div class="cta-block row no-gutters">
-      <div class="col-lg-4 col-md-6 emmergency item" style={{backgroundColor:"#F0FFFF"}}>
+    <div class="cta-block row no-gutters" style={{backgroundColor:"#CCFFFF",border: '1px solid lightgray',height:'8cm'}}>
+      <div class="col-lg-4 col-md-6 emmergency item" style={{backgroundColor:"#CCFFFF",border: '1px solid lightgray'}}>
         <i class="fa fa-phone"></i>
         <h2 style={{Color:"blue"}}>Emegency Cases</h2>
         <a href="tel:0782 779 773" style={{Color:"blue"}}>0782 779 773</a>
         <p style={{Color:"blue"}}>for specific case you can call that number for specific help <br/> <br/></p>
       </div>
-      <div class="col-lg-4 col-md-6 top-doctor item" style={{backgroundColor:"skyblue"}}>
+      <div class="col-lg-4 col-md-6 top-doctor item" style={{backgroundColor:"#CCFFFF",border: '1px solid lightgray'}}>
         <i class="fa fa-stethoscope"></i>
         <h2>24 Hour Service</h2>
         <p>our services is always available as 24/24 hours</p>
-        <a href="service.html" class="btn btn-main"><Link to="/about" class=' ' style={{height:'1cm',textDecoration:"none"}}>read more</Link></a>
+        <a href="service.html" class="btn btn-main"><Link to="/about" class=' ' style={{height:'1cm',textDecoration:"none",border: '1px solid lightgray'}}>read more</Link></a>
       </div>
-      <div class="col-lg-4 col-md-12 working-time item">
+      <div class="col-lg-4 col-md-12 working-time item" style={{backgroundColor:"#CCFFFF"}}>
         <i class="fa fa-hourglass-o"></i>
         <h2>users</h2>
         <ul class="w-hours">
@@ -57,10 +57,10 @@ const Landing = () => {
 
   </div>
 
-</section>
+</section><br/>
 
 {/* <!--about section--> */}
-<section class="feature-section section bg-gray" style={{marginTop:'-2.5cm'}}>
+<section class="feature-section section bg-gray" style={{marginTop:''}}>
 	<div class="container">
 		<div class="row" style={{padding:'1cm'}}>
 			<div class="col-lg-12">
